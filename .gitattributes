@@ -1,0 +1,18 @@
+# Ensure consistent line endings across platforms
+*.py text eol=lf
+*.bat text eol=crlf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Treat binary files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Ignore changes in executable permissions
+* -text
+
+# Set linguist attributes for better GitHub language detection
+*.py linguist-language=Python
+*.bat linguist-language=Batchfile
+*.md linguist-documentation
